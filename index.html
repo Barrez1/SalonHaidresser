@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Site - Web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a9ec0a692b.js" crossorigin="anonymous"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="parallax.js-1.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="container" id="nav-container">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand">
+            <img id="logo" src="imagem/logo.png" alt="logoSite"> Hairdresser
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"area-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbar-links">
+           <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu">Home</a>
+            <a class="nav-item nav-link" id="about-menu">Sobre</a>
+            <a class="nav-item nav-link" id="services-menu">Serviços</a>
+            <a class="nav-item nav-link" id="contact-menu">Contato</a>
+            <a class="nav-item nav-link" id="products-menu">Produtos</a>
+            
+
+           </div> 
+        </div>
+    </nav>
+    </div>
+  </header>
+  <main>
+    <div id="container"class="container-fluid">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li> 
+                <li data-bs-target="#mainSlider" data-bs-slide-to="2" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="imagem/cb1.jpg" class="d-block w-100 "alt="cabelo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desperte sua beleza</h2>
+                    <p>Transformando cabelos em verdadeiras obras de arte, resgatando sua essência e realçando sua beleza.</p>
+                    <a href="#" class="main-btn">Serviços</a>
+                </div>
+            </div>
+            
+                <div class="carousel-item">
+                <img src="imagem/cb2.jpg" class="d-block w-100 "alt="cabelo1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Agende. Transforme. Arrase!</h2>
+                    <p>Entre em contato pelo telefone ou agende pelo nosso site</p>
+                    <a href="#" class="main-btn">Agendar</a>
+                </div>
+            </div>
+           
+                <div class="carousel-item">
+                <img src="imagem/cb3.jpg" class="d-block w-100 "alt="cabelo2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Estilo e beleza em cada detalhe</h2>
+                    <p>Descubra o poder da transformação através do cuidado personalizado.</p>
+                    <a href="#" class="main-btn">Sobre</a>
+                </div>
+            </div>
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a href="#mainSlider" class="carousel-control-next" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    <div id="about-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Sobre:</h3>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="imagem/salao2.jpg" alt="Salão">
+            </div>
+            <div class="col-md-6">
+                <h3 class="about-title">Seu estilo, nossa paixão. Transformando cabelos e elevando sua confiança para um novo patamar.</h3>
+                <p>Descubra o segredo para cabelos incríveis - uma combinação perfeita de talento, técnica e dedicação.</p>
+                <p>Embarque em uma jornada de beleza e autoexpressão, onde nossos especialistas em cabelo trazem à vida suas ideias e inspirações. Com técnicas inovadoras e produtos de qualidade, criamos looks deslumbrantes que refletem sua personalidade única. Agende uma visita e deixe-nos cuidar do seu cabelo, enquanto você relaxa e se entrega a uma experiência luxuosa de bem-estar e estilo. </p>
+                <p>Seu cabelo merece o melhor. Agende agora e deixe-nos cuidar de você.</p>
+                <p>Veja outros diferenciais:</p>
+                <ul id="about-list">
+                    <li><i class="fas fa-check "></i>Trabalhamos apenas com produtos de alta qualidade.</li>
+                    <li><i class="fas fa-check"></i>Aceitamos diversos meios de pagamento para sua comodidade.</li>
+                    <li><i class="fas fa-check"></i>Entrega rápida.</li>
+                    <li><i class="fas fa-check"></i>Atendimento rápido.</li>
+                    <li><i class="fas fa-check"></i>Agendamento fácil.</li>
+                </ul>
+
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div id="services-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Benefícios:</h3>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Agendamento </h4>
+                    <p>Agendamento facil para um atendimento diferenciado</p>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4>E-commerce</h4>
+                    <p>Compre seus produtos através de nosso site</p>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h4>Pagamento</h4>
+                    <p>Pagamento fácil e seguro</p>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+                    <h4>Localização</h4>
+                    <p>Fácil de se localizar</p>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    <h4>Contato</h4>
+                    <p>Atendimento 24hrs</p>
+
+                </div>
+                <div class="col-md-4 service-box">
+                    <i class="fa-sharp fa-solid fa-truck-fast"></i>
+                    <h4>Entrega</h4>
+                    <p>Entrega rápida e fácil</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+      
+    <div id="data-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 circle-box">
+                    <div id="circleA"></div>
+                    <p>Clientes Satisfeitas:</p>
+                </div>
+                <div class="col-md-3 circle-box">
+                    <div id="circleB"></div>
+                    <p>Vagas disponíveis:</p>
+                </div>
+                <div class="col-md-3 circle-box">
+                    <div id="circleC"></div>
+                    <p>Entregas com sucesso:</p>
+                </div>
+                <div class="col-md-3 circle-box">
+                    <div id="circleD"></div>
+                    <p>Avaliação:</p>
+                </div>              
+            </div>
+        </div>
+    </div>
+
+    <div id="team-area">
+        <div class="container">
+            <div class="row">
+               <div class="col-12">
+                <h3 class="main-title">Nosso Time</h3>
+               </div>
+               <div class="col-md-3">
+                 <div class="card">
+                    <img src="imagem/Foto1.jpg" class="card-img-top" alt="imagem de perfil 1">
+                   <div class="card-body">
+                    <h5 class="card-title">Pedro Barrese</h5>
+                    <p class="card-text">Software Developer</p>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="col-md-3">
+                 <div class="card">
+                    <img src="imagem/Foto2.jpg" class="card-img-top" alt="imagem de perfil 2">
+                   <div class="card-body">
+                    <h5 class="card-title">Tatiane Soares</h5>
+                    <p class="card-text">Software Developer</p>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="col-md-3">
+                 <div class="card">
+                    <img src="imagem/foto3.png" class="card-img-top" alt="imagem de perfil 3">
+                   <div class="card-body">
+                    <h5 class="card-title">Floquinho</h5>
+                    <p class="card-text">Come e dorme</p>
+                   </div>
+                 </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card">
+                       <img src="imagem/Foto4.png" class="card-img-top" alt="imagem de perfil 2">
+                      <div class="card-body">
+                       <h5 class="card-title">Bean</h5>
+                       <p class="card-text">Só dorme, não come</p>
+                      </div>
+                 
+                </div>
+            </div>
+        </div>
+        <br> <br>
+    <div id="apply-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 apply-box" id="company-img"></div>
+                <div class="col-md-6 apply-box" id="pattern-img">
+                    <h4>Gosta de se reinventar?</h4>
+                    <p>Temos vagas em aberto! Entre elas: Manícure, Cabeleireira e Esteticista. </p>
+                    <p>Clique no botão abaixo e confira os benefícios.</p>
+                    <p>Aqui você terá a chance de trabalhar com os melhores profissionais do mercado</p>
+                    <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="main-title">Conheça Nossos Produtos:</h3>
+                </div>
+                <div class="col-md-12" id="filter-btn-box">
+                    <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                    <button class="main-btn filter-btn " id="dev-btn">Shampoo</button>
+                    <button class="main-btn filter-btn " id="dsg-btn">Cremes</button>
+                    <button class="main-btn filter-btn " id="seo-btn">Máscaras</button>
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem1.jpeg" class="img-fluid" alt="projeto1">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem2.jpeg" class="img-fluid" alt="projeto2">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                    <img src="imagem/imagem3.jpeg" class="img-fluid" alt="projeto3">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                    <img src="imagem/imagem4.jpeg" class="img-fluid" alt="projeto4">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                    <img src="imagem/imagem5.jpeg" class="img-fluid" alt="projeto5">
+                </div>
+                <div class="col-md-4 project-box seo">
+                    <img src="imagem/imagem6.jpeg" class="img-fluid" alt="projeto6">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem7.jpeg" class="img-fluid" alt="projeto7">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                    <img src="imagem/imagem8.jpeg" class="img-fluid" alt="projeto8">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem9.jpeg" class="img-fluid" alt="projeto9">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem10.jpeg" class="img-fluid" alt="projeto10">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem11.jpeg" class="img-fluid" alt="projeto11">
+                </div>
+                <div class="col-md-4 project-box dev">
+                    <img src="imagem/imagem12.jpeg" class="img-fluid" alt="projeto12">
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="news-area">
+        <div class="container">
+            <div class="col-md-12">
+                <h3 class="main-title">Fique por dentro das novidades</h3>
+            </div>
+            <p>Assine nossa lista de e-mails, e receba as novidades sobre cortes, penteados e produtos </p>
+           <form action="">
+            <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu e-mail aqui.">
+            <input type="submit"id="news-btn" value="Inscrever-se">
+           </form>
+        </div>
+    </div>
+
+    <div id="call-area">
+        <div class="container">
+            <div class="row">
+                <p>Deseja fazer um orçamento sem compromisso?</p>
+                <button class="main-btn" id="call-btn">Orçar</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </main>
+
+  
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
